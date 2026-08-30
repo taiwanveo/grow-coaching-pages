@@ -1,0 +1,10 @@
+title = "GROW Coaching Pages"
+
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "單檔 HTML 內嵌 WASM／二進位會被誤判成 Brave Search API key"
+paths = [
+  '''index\.html''',
+]
